@@ -118,4 +118,4 @@ def generate_gemini_response(user_message):
         return "I apologize, but I'm having trouble generating a response. If you're experiencing distress, please consider reaching out to a mental health professional or support line."
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=10000, debug=True)
