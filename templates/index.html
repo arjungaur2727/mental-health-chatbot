@@ -133,10 +133,19 @@
             const userInput = document.getElementById('userInput');
             const sendButton = document.getElementById('sendButton');
             const typingIndicator = document.getElementById('typingIndicator');
+
             
             // Determine if we're running via Flask or as standalone HTML
-            const isRunningOnFlask = window.location.href.includes('127.0.0.1:5000') || 
-                                    window.location.href.includes('localhost:5000');
+           //const isRunningOnFlask = window.location.href.includes('127.0.0.1:5000') || 
+                                    //window.location.href.includes('localhost:5000');
+            // Use relative URLs by default (works in production)
+            
+const apiBaseUrl = '';
+
+// Optional: For local development with separate frontend/backend
+// Uncomment this during development if needed
+// const apiBaseUrl = 'http://127.0.0.1:5000';
+
             
             // Base URL for API requests
             const apiBaseUrl = isRunningOnFlask ? '' : 'http://127.0.0.1:5000';
