@@ -1,4 +1,5 @@
 Mental Health Chatbot
+
 A supportive AI-powered chatbot designed to provide mental health resources, coping strategies, and a listening ear for those in need.
 Overview
 This chatbot serves as a digital mental health companion, offering:
