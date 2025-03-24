@@ -148,7 +148,9 @@ const apiBaseUrl = '';
 
             
             // Base URL for API requests
-            const apiBaseUrl = isRunningOnFlask ? '' : 'http://127.0.0.1:5000';
+            //const apiBaseUrl = isRunningOnFlask ? '' : 'http://127.0.0.1:5000';
+            // Single declaration of apiBaseUrl to avoid redeclaration errors
+const apiBaseUrl = '';
             
             function addMessage(text, isUser) {
                 const messageDiv = document.createElement('div');
