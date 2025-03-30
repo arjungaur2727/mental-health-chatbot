@@ -14,7 +14,7 @@ Access the Chatbot
 You can interact with the Mental Health Chatbot at:
 https://mental-health-chatbot-qcyl.onrender.com/
 
-Important Disclaimer
+Important Disclaimer _
 This chatbot is not a replacement for professional mental health services. If you're experiencing a crisis or emergency, please contact a mental health professional, call a crisis helpline, or visit your nearest emergency room.
 Features
 
